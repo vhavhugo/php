@@ -44,13 +44,9 @@
         <th>Qua</th>
         <th>Qui</th>
         <th>Sex</th>
-        <th>Sab</th>
+        <th>Sáb</th>
         </tr>
-        <?php linha();?>
-        <?php linha();?>
-        <?php linha();?>
-        <?php linha();?>
-        <?php linha();?>
+        <?php calendario();?>
     </table>        
     </body>
 </html>
