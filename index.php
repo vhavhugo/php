@@ -1,5 +1,7 @@
 <?php
-    echo "Hoje é dia" . date ('d/m/Y');
+    //Construindo um Calendário
+    echo "Hoje é dia" . date ('d/m/y');
+    
     echo "agora são " . date ('H:i:s');
 ?>
 
