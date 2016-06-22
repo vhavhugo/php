@@ -9,6 +9,7 @@
         <title></title>
     </head>
     <body>
+        <h1><?php echo "Título dentro do H1"; ?></h1>
     <table border="1">
         <tr>
         <th>Dom</th>
