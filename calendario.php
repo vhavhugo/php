@@ -1,5 +1,17 @@
 <?php
-
+    function linha(){
+        echo "
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        ";
+    }
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +21,7 @@
         <title></title>
     </head>
     <body>
-        <h1><?php echo "Título dentro do H1"; ?></h1>
+        <h1><?php echo "Calendário"; ?></h1>
     <table border="1">
         <tr>
         <th>Dom</th>
@@ -20,6 +32,11 @@
         <th>Sex</th>
         <th>Sab</th>
         </tr>
+        <?php linha();?>
+        <?php linha();?>
+        <?php linha();?>
+        <?php linha();?>
+        <?php linha();?>
     </table>        
     </body>
 </html>
